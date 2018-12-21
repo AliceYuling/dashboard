@@ -24,7 +24,8 @@
 
 .kd-toolbar-logo-link {
   .kd-toolbar-logo {
-    @extend %kd-toolbar-logo-placeholder;
+    // @extend %kd-toolbar-logo-placeholder;
+    height: 4 * $baseline-grid;
   }
 
   .kd-toolbar-logo-text {
